@@ -1,5 +1,5 @@
 import requests
-from geopy.geocoders import Nominatim #geopy was downloaded from github
+from geopy.geocoders import Nominatim 
 
 iss = requests.get(url ="http://api.open-notify.org/iss-now.json") #getting coordinates of ISS from API
 iss = iss.json()
